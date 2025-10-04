@@ -8,7 +8,9 @@
 ### get the user profile (username, translated files)
 /api/v1/userProfile
 
-## File translation
+## translation
+### translation
+/api/v1/trans
 ### upload files for translation, this sends a message to Kafka
 /api/v1/uploadFile
 ### ping for the file translation status
@@ -19,6 +21,10 @@
 ## Rewrite
 /api/v1/rewrite
 
+## RAG
+/api/v1/rag/trans
+/api/v1/rag/addFile
+
 ---
 
 # LLM Engine
@@ -26,6 +32,9 @@
 ## Translation
 ### normal translation
 /api/v1/llm/trans
+
+## rewrite
+/api/v1/llm/rewrite
 
 ## RAG
 ### rag translation
