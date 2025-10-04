@@ -1,5 +1,0 @@
--- user_id
--- user_email
--- password
--- user_name
--- profile_pic_url

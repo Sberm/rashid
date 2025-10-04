@@ -6,8 +6,8 @@ Maven Version: Apache Maven 3.8.7
 
 Dependencies: 
 - Spring Web
-- Spring Data JPA
-- Spring Security
+- Spring Data JPA (Removed cause we're using mybatis)
+- Spring Security (Currently removed for a fluent development)
 - Validation
 - Spring Boot Actuator
 - MySQL Driver
